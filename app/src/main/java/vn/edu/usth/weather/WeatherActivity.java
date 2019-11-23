@@ -5,52 +5,42 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-
 public class WeatherActivity extends AppCompatActivity {
-    private final String tag = "status";
+    private static final String TAG = "Weather Activity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Log.i(tag, "on create");
-
-        // Create a new Fragment to be placed in the activity
-        ForecastFragment forecastFragment = new ForecastFragment();
-
-        // Add the fragment to the 'container' FrameLayout
-        getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
+        setContentView(R.layout.activity_weather);
+        Log.i(TAG,"this is onCreate Function");
     }
-
-
 
     @Override
     protected void onStart() {
-        Log.i(tag, "on start");
         super.onStart();
+        Log.i(TAG,"this is onStart Function");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i(tag, "on resume");
+        Log.i(TAG,"this is onResume Function");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(tag, "on pause");
+        Log.i(TAG,"this is onPause Function");
     }
-
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(tag, "on stop");
+        Log.i(TAG,"this is onStop Function");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i(tag, "on destroy");
+        Log.i(TAG,"this is onDestroy Function");
     }
 }
