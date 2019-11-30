@@ -5,20 +5,10 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WeatherActivity"
-    android:orientation="vertical">
-
-    <fragment
-        android:name="vn.edu.usth.weather.WeatherFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/fragment_weather" />
-
-    <fragment
-        android:name="vn.edu.usth.weather.ForecastFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#2196F3"
-        tools:layout="@layout/fragment_forecast" />
-
-</LinearLayout>
+    android:orientation="vertical"
+    tools:context=".WeatherActivity" >
+<androidx.viewpager.widget.ViewPager
+android:id="@+id/pager"
+android:layout_height="match_parent"
+android:layout_width="match_parent" />
+    </LinearLayout>
