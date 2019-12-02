@@ -18,7 +18,8 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="Mon"
+            android:text="@string/day0"
+
             android:layout_gravity="center"
             android:textSize="24sp" />
 
@@ -40,13 +41,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/mostly_cloudy"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
@@ -60,7 +61,7 @@
         <TextView
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="Tue"
+            android:text="@string/day"
             android:layout_gravity="center"
 
             android:textSize="24sp" />
@@ -82,13 +83,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/thunderstorms"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
@@ -104,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
-            android:text="Wed"
+            android:text="@string/day1"
             android:textSize="24sp" />
 
         <ImageView
@@ -124,7 +125,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/partly_cloudy"
                 tools:text=" Partly Cloudy" />
 
             <TextView
@@ -146,7 +147,7 @@
             android:layout_height="52dp"
             android:layout_gravity="center"
 
-            android:text="Thur  "
+            android:text="@string/day3"
             android:textSize="24sp" />
 
         <ImageView
@@ -166,13 +167,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/sunny"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
@@ -188,7 +189,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
-            android:text="Fri"
+            android:text="@string/day4"
             android:textSize="24sp" />
 
         <ImageView
@@ -208,13 +209,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/mostly_cloudy"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
@@ -230,7 +231,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
-            android:text="Sat "
+            android:text="@string/day5"
             android:textSize="24sp" />
 
         <ImageView
@@ -250,13 +251,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/partly_cloudy"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
@@ -272,7 +273,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
-            android:text="Sun "
+            android:text="@string/day6"
             android:textSize="24sp" />
 
         <ImageView
@@ -292,13 +293,13 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/sunny"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
