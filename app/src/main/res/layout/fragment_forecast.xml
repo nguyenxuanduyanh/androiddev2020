@@ -138,7 +138,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/textview_weather_height"
                 android:textSize="@dimen/textview_day_txtsize"
-                android:text="TextView"
+                android:text="@string/paris"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>

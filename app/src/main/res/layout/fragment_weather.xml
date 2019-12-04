@@ -2,24 +2,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#5B009688"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame"
     tools:context=".WeatherFragment">
 
     <TextView
         android:id="@+id/textTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12C"
-        android:textSize="25sp" />
+        android:layout_marginStart="@dimen/row_height"
+        android:layout_marginLeft="@dimen/row_height"
+        android:layout_marginTop="@dimen/textview_weather_height"
+        android:text="@string/temperature"
+        android:textSize="@dimen/temperature_textSize" />
 
     <TextView
         android:id="@+id/textWeather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textTemp"
-        android:text="Cloudy"
-        android:textSize="25sp" />
+        android:layout_marginStart="@dimen/row_height"
+        android:layout_marginLeft="@dimen/row_height"
+        android:text="@string/sunny"
+        android:textSize="@dimen/temperature_textSize" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,8 +33,11 @@
         android:layout_alignRight="@id/textTemp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="Paris"
-        android:textSize="20sp" />
+        android:layout_marginTop="@dimen/textview_weather_height"
+        android:layout_marginEnd="@dimen/row_height"
+        android:layout_marginRight="@dimen/row_height"
+        android:text="@string/paris"
+        android:textSize="@dimen/city_textSize" />
 
     <ImageView
         android:id="@+id/imageView"

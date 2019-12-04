@@ -16,7 +16,8 @@
     <string name="rain">Mưa</string>
     <string name="scattered_showers">Mưa nặng hạt</string>
     <string name="showers">Mưa rào</string>
-    <string name="sunny">Nắng cực</string>
+    <string name="sunny">Nắng to</string>
     <string name="temperature">24C -31C</string>
     <string name="thunderstorms">Bão sấm</string>
+
 </resources>
