@@ -5,28 +5,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="20dp"
+    android:orientation="vertical"
     tools:context=".ForecastFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
-            android:text="@string/day0"
-
             android:layout_gravity="center"
-            android:textSize="24sp" />
+
+            android:text="@string/day0"
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
+            android:layout_width="@dimen/imageview_weather_width"
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="@dimen/imageview_weather_height"
+            android:layout_gravity="center"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
@@ -40,55 +40,60 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/mostly_cloudy"
+                android:textSize="@dimen/textview_day_txtsize"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/temperature"
+
+                android:textSize="@dimen/textview_day_txtsize"
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
-            android:text="@string/day"
             android:layout_gravity="center"
+            android:text="@string/day"
 
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
+            android:layout_gravity="center"
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
             android:src="@drawable/rainy_1" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:layout_weight="3"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
                 android:text="@string/thunderstorms"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
                 android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
@@ -96,41 +101,43 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:text="@string/day1"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
+            android:layout_gravity="center"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:layout_weight="3"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/partly_cloudy"
+                android:textSize="@dimen/textview_day_txtsize"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
                 android:text="TextView"
                 tools:text="24C-31C" />
         </LinearLayout>
@@ -138,22 +145,22 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
-            android:layout_height="52dp"
+            android:layout_width="@dimen/textview_day_width"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:text="@string/day3"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
+            android:layout_gravity="center"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
@@ -166,13 +173,16 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
                 android:text="@string/sunny"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
+
                 android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
@@ -180,22 +190,22 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:text="@string/day4"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
+            android:layout_gravity="center"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
@@ -208,36 +218,39 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/mostly_cloudy"
+                android:textSize="@dimen/textview_day_txtsize"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/temperature"
+                android:textSize="@dimen/textview_day_txtsize"
+
                 tools:text="24C-31C" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:text="@string/day5"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
+            android:layout_gravity="center"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
@@ -250,13 +263,16 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
                 android:text="@string/partly_cloudy"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
+                android:textSize="@dimen/textview_day_txtsize"
+
                 android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
@@ -264,22 +280,21 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="@dimen/row_height"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="@dimen/textview_day_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
             android:text="@string/day6"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textview_day_txtsize" />
 
         <ImageView
 
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/imageview_weather_width"
+            android:layout_height="@dimen/imageview_weather_height"
             android:src="@drawable/sunny_1" />
 
         <LinearLayout
@@ -292,13 +307,13 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/sunny"
                 tools:text=" Partly Cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/textview_weather_height"
                 android:text="@string/temperature"
                 tools:text="24C-31C" />
         </LinearLayout>
