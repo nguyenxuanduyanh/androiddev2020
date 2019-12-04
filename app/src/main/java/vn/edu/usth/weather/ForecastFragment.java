@@ -31,3 +31,4 @@ public class ForecastFragment extends Fragment {
     }
 
 }
+
